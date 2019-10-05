@@ -1,6 +1,11 @@
+/* Soft scroll */
+
 html {
     scroll-behavior: smooth;
   }
+
+/* Navbar */
+
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -21,6 +26,9 @@ html {
     background: #ddd;
     color: black;
 }
+
+/* Style */
+
 body {
     margin: 0;
     padding: 0;
@@ -42,12 +50,6 @@ section h1 {
     font-size: 5em;
     color: #10212A
 }
-section h3 {
-    font-family: sans-serif;
-    font-weight: bolder;
-    font-size: 18px;
-    color: #10212A;
-}
 section p {
     font-family: sans-serif;
     font-size: 18px;
@@ -62,4 +64,30 @@ section:nth-child(3) {
 section:nth-child(4) {
     background-color: #95AA62;
     height: 200vh;
+}
+
+/* Collapsible content */
+
+.collapsible {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #10212A;
+    background-color: #95AA62;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+.active, .collapsible:hover {
+    color: #F6FFDF;
+}
+.info {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    color: #F6FFDF;
+    transition: max-height 0.2s ease-out;
 }
