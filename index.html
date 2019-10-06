@@ -37,70 +37,70 @@
         <table style="width: 100%">
             <tr>
                 <td>
-                    <button type="button" class="collapsible">Energia sustentável</button>
-                    <div class="info">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse">Energia sustentável</a>
+                    <div id="collapse" class="panel-collapse collapse">
                         Lorem ipsum
                     </div>
                 </td>
                 <td>
-                    <button type="button" class="collapsible">Economia de água</button>
-                    <div class="info">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Economia de água</a>
+                    <div id="collapse1" class="panel-collapse collapse">
                         Lorem ipsum    
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button type="button" class="collapsible">Matéria prima</button>
-                    <div class="info">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Matéria prima</a>
+                    <div id="collapse2" class="panel-collapse collapse">
                         Lorem ipsum        
                     </div>
                 </td>
                 <td>
-                    <button type="button" class="collapsible">Biodegradação</button>
-                    <div class="info">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Biodegradação</a>
+                    <div id="collapse3" class="panel-collapse collapse">
                         Lorem ipsum      
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button type="button" class="collapsible">Reutilização</button>
-                    <div class="info">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Reutilização</a>
+                    <div id="collapse4" class="panel-collapse collapse">
                         Lorem ipsum    
                     </div>
                 </td>
                 <td>
-                    <button type="button" class="collapsible">Durabilidade</button>
-                    <div class="info">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Durabilidade</a>
+                    <div id="collapse5" class="panel-collapse collapse">
                         Lorem ipsum 
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button type="button" class="collapsible">Custo benefício</button>
-                    <div class="info">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Custo benefício</a>
+                    <div id="collapse6" class="panel-collapse collapse">
                         Lorem ipsum    
                     </div>
                 </td>
                 <td>
-                    <button type="button" class="collapsible">Distribuição</button>
-                    <div class="info">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Distribuição</a>
+                    <div id="collapse7" class="panel-collapse collapse">
                         Lorem ipsum           
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button type="button" class="collapsible">Embalagem</button>
-                    <div class="info">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Embalagem</a>
+                    <div id="collapse8" class="panel-collapse collapse">
                         Lorem ipsum     
                     </div>
                 </td>
                 <td>
-                    <button type="button" class="collapsible">Recolhimento</button>
-                    <div class="info">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">Recolhimento</a>
+                    <div id="collapse9" class="panel-collapse collapse">
                         Lorem ipsum
                     </div>
                 </td>
@@ -108,22 +108,7 @@
         </table>
         </div>
     </section>
-  <script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var info = this.nextElementSibling;
-    if (info.style.maxHeight){
-      info.style.maxHeight = null;
-    } else {
-      info.style.maxHeight = info.scrollHeight + "px";
-    }
-  });
-}
-  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script type="text/javascript">
