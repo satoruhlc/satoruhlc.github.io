@@ -120,6 +120,7 @@ section:nth-child(4) {
 section:nth-child(5) {
     background: #81ecec url('./img/energy.png');
     background-repeat: no-repeat;
+    background-size: auto 100%;
     background-attachment: bottom;
     background-position: bottom;
     height: 100vh;
@@ -127,6 +128,7 @@ section:nth-child(5) {
 section:nth-child(6) {
     background: #5f27cd url('./img/water.png');
     background-repeat: no-repeat;
+    background-size: auto 100%;
     background-attachment: bottom;
     background-position: bottom;
     height: 100vh;
@@ -142,6 +144,7 @@ section:nth-child(7) {
 section:nth-child(8) {
     background: #81ecec url('./img/biodegradation.png');
     background-repeat: no-repeat;
+    background-size: auto 100%;
     background-attachment: bottom;
     background-position: bottom;
     height: 100vh;
@@ -149,6 +152,7 @@ section:nth-child(8) {
 section:nth-child(9) {
     background: #81ecec url('./img/reuse.png');
     background-repeat: no-repeat;
+    background-size: auto 100%;
     background-attachment: bottom;
     background-position: bottom;
     height: 100vh;
@@ -156,6 +160,7 @@ section:nth-child(9) {
 section:nth-child(10) {
     background: #F6FFDF url('./img/lifespan.png');
     background-repeat: no-repeat;
+    background-size: auto 100%;
     background-attachment: bottom;
     background-position: bottom;
     height: 100vh;
@@ -163,6 +168,7 @@ section:nth-child(10) {
 section:nth-child(11) {
     background: #81ecec url('./img/price.png');
     background-repeat: no-repeat;
+    background-size: auto 100%;
     background-attachment: bottom;
     background-position: bottom;
     height: 100vh;
@@ -170,6 +176,7 @@ section:nth-child(11) {
 section:nth-child(12) {
     background: #81ecec url('./img/distribuition.png');
     background-repeat: no-repeat;
+    background-size: auto 100%;
     background-attachment: bottom;
     background-position: bottom;
     height: 100vh;
@@ -177,6 +184,7 @@ section:nth-child(12) {
 section:nth-child(13) {
     background: #81ecec url('./img/package.png');
     background-repeat: no-repeat;
+    background-size: auto 100%;
     background-attachment: bottom;
     background-position: bottom;
     height: 100vh;
@@ -184,6 +192,7 @@ section:nth-child(13) {
 section:nth-child(14) {
     background: #81ecec url('./img/retreat.png');
     background-repeat: no-repeat;
+    background-size: auto 100%;
     background-attachment: bottom;
     background-position: bottom;
     height: 100vh;
